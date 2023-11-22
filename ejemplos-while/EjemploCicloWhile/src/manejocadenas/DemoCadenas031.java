@@ -11,10 +11,10 @@ package manejocadenas;
  */
 public class DemoCadenas031 {
     public static void main(String[] args) {
-        String nombre = "Ecuador";
-        String apellido = "Loja";
-        int edad = 39;
-        String cadenaAcumuladora = "Datos Personales\n";
+        String pais = "Ecuador";
+        String ciudad = "Loja";
+        int fechaIndependencia = 39;
+        String cadenaAcumuladora = "Datos del pais\n";
         
         cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, pais);
         
